@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/app.css"/>
+		
+	</head>
+
+	<body>
+		<div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable">
+			<!--侧滑菜单部分-->
+			<aside id="offCanvasSide" class="mui-off-canvas-left">
+				<div id="offCanvasSideScroll" class="mui-scroll-wrapper">
+					<div class="mui-scroll">
+					    <!-- 菜单具体展示内容 -->
+					    <div class="user-info">
+							<a href="javascript:;">
+								<img class="mui-media-object mui-pull-left" src="../images/logo.png" style="width:45px">
+								<div class="mui-media-body">
+									美国云鹤
+									<p class="mui-ellipsis">注册之后内容更精彩!</p>
+								</div>
+							</a>
+							<!--<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>-->
+							<p style="text-align: center;">
+								<a href="http://m.skywalk-er.com/member/public/login" class="mui-btn mui-btn-outlined mui-btn-primary">登陆 </a>
+								<a href="http://m.skywalk-er.com/member/public/register" class="mui-btn mui-btn-outlined mui-btn-primary">注册 </a>
+							</p>
+						</div>
+						<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+							<li class="mui-table-view-cell">
+								<a href="http://m.skywalk-er.com/" class="mui-navigate-right mui-ellipsis"><span class="mui-icon mui-icon-home"></span> 首页 <span class="left-desc">Home</span></a>
+							</li>
+							<li class="mui-table-view-cell">
+								<a href="http://m.skywalk-er.com/products/index/cid/1.html" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiatejia"></span> 商城 </a>
+							</li>
+							<li class="mui-table-view-cell">
+								<a href="http://m.skywalk-er.com/products/index/cid/4.html" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaziyouxing"></span> 视频</a>
+							</li>
+							<li class="mui-table-view-cell">
+								<a href="http://m.skywalk-er.com/products/index/cid/3.html" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaguonei"></span> 口碑</a>
+							</li>
+							<li class="mui-table-view-cell">
+								<a href="http://m.skywalk-er.com/products/index/cid/3.html" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaguonei"></span> 用户中心</a>
+							</li>
+							<li class="mui-table-view-cell">
+								<a href="http://m.skywalk-er.com/products/index/cid/3.html" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaguonei"></span> 我的订单</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+			<!--主界面部分-->
+			<div class="mui-inner-wrap">
+				<header class="mui-bar mui-bar-nav">
+					<a href="#offCanvasSide" class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></a>
+					<h1 class="mui-title">美国科瑞药业</h1>
+				</header>
+				<div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<div id="slider" class="mui-slider" >
+							<div class="mui-slider-group mui-slider-loop">
+								<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<a href="#">
+										<img src="../images/yuantiao.jpg">
+									</a>
+								</div>
+								<!-- 第一张 -->
+								<div class="mui-slider-item">
+									<a href="#">
+										<img src="../images/shuijiao.jpg">
+									</a>
+								</div>
+								<!-- 第二张 -->
+								<div class="mui-slider-item">
+									<a href="#">
+										<img src="../images/muwu.jpg">
+									</a>
+								</div>
+								<!-- 第三张 -->
+								<div class="mui-slider-item">
+									<a href="#">
+										<img src="../images/cbd.jpg">
+									</a>
+								</div>
+								<!-- 第四张 -->
+								<div class="mui-slider-item">
+									<a href="#">
+										<img src="../images/yuantiao.jpg">
+									</a>
+								</div>
+								<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<a href="#">
+										<img src="../images/shuijiao.jpg">
+									</a>
+								</div>
+							</div>
+							<div class="mui-slider-indicator">
+								<div class="mui-indicator mui-active"></div>
+								<div class="mui-indicator"></div>
+								<div class="mui-indicator"></div>
+								<div class="mui-indicator"></div>
+							</div>
+						</div>
+						
+						<h5 class="mui-content-padded">今日精选</h5>
+						<ul class="mui-table-view list">
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+                                    <div class="mui-media-body">
+                                        <b>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</b>
+                                        <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般</p>
+                                        <p class="info">
+                                        	<span class="mui-badge mui-badge-primary">5人购买</span>
+                                        	<span class="old_price">￥<b>380</b>元</span>
+                                        	<span class="price">￥<b>480</b>元</span>
+                                        </p>
+                                    </div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+                                    <div class="mui-media-body">
+                                        <b>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</b>
+                                        <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般</p>
+                                        <p class="info">
+                                        	<span class="mui-badge mui-badge-primary">5人购买</span>
+                                        	<span class="old_price">￥<b>380</b>元</span>
+                                        	<span class="price">￥<b>480</b>元</span>
+                                        </p>
+                                    </div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+                                    <div class="mui-media-body">
+                                        <b>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</b>
+                                        <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般</p>
+                                        <p class="info">
+                                        	<span class="mui-badge mui-badge-primary">5人购买</span>
+                                        	<span class="old_price">￥<b>380</b>元</span>
+                                        	<span class="price">￥<b>480</b>元</span>
+                                        </p>
+                                    </div>
+								</a>
+							</li>
+						</ul>
+						<h5 class="mui-content-padded">魅力女士</h5>
+						<ul class="mui-table-view list">
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+                                    <div class="mui-media-body">
+                                        <b>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</b>
+                                        <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般</p>
+                                        <p class="info">
+                                        	<span class="mui-badge mui-badge-primary">5人购买</span>
+                                        	<span class="old_price">￥<b>380</b>元</span>
+                                        	<span class="price">￥<b>480</b>元</span>
+                                        </p>
+                                    </div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+                                    <div class="mui-media-body">
+                                        <b>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</b>
+                                        <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般</p>
+                                        <p class="info">
+                                        	<span class="mui-badge mui-badge-primary">5人购买</span>
+                                        	<span class="old_price">￥<b>380</b>元</span>
+                                        	<span class="price">￥<b>480</b>元</span>
+                                        </p>
+                                    </div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+                                    <div class="mui-media-body">
+                                        <b>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</b>
+                                        <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般</p>
+                                        <p class="info">
+                                        	<span class="mui-badge mui-badge-primary">5人购买</span>
+                                        	<span class="old_price">￥<b>380</b>元</span>
+                                        	<span class="price">￥<b>480</b>元</span>
+                                        </p>
+                                    </div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					
+
+				</div>
+				<!-- off-canvas backdrop -->
+				<div class="mui-off-canvas-backdrop"></div>
+			</div>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script>
+			mui.init();
+			 //侧滑容器父节点
+			var offCanvasWrapper = mui('#offCanvasWrapper');
+			 //主界面容器
+			var offCanvasInner = offCanvasWrapper[0].querySelector('.mui-inner-wrap');
+			 //菜单容器
+			var offCanvasSide = document.getElementById("offCanvasSide");
+			 //侧滑容器的class列表，增加.mui-slide-in即可实现菜单移动、主界面不动的效果；
+			var classList = offCanvasWrapper[0].classList;
+			 //变换侧滑动画移动效果；
+			offCanvasWrapper[0].insertBefore(offCanvasSide, offCanvasWrapper[0].firstElementChild);
+			 //主界面和侧滑菜单界面均支持区域滚动；
+			mui('#offCanvasSideScroll').scroll();
+			mui('#offCanvasContentScroll').scroll();
+			 //实现ios平台原生侧滑关闭页面；
+			if (mui.os.plus && mui.os.ios) {
+				mui.plusReady(function() { //5+ iOS暂时无法屏蔽popGesture时传递touch事件，故该demo直接屏蔽popGesture功能
+					plus.webview.currentWebview().setStyle({
+						'popGesture': 'none'
+					});
+				});
+			}
+			var slider = mui("#slider");
+			slider.slider({
+				interval: 2000
+			});
+		</script>
+	</body>
+
+</html>

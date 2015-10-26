@@ -1,0 +1,53 @@
+* {
+	font-family: "microsoft yahei",sans-serif;
+	font-size: 12px;
+}
+html,body {
+	background-color: #efeff4;
+}
+.user-info {
+	text-align: left;
+	padding: 20px 10px 10px;
+	text-indent: 6px;
+}
+.user-info img {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.list .mui-table-view-cell.mui-media .mui-media-object {
+	width: 100px;
+	height: 75px;
+	max-width: 100px;
+}
+
+.info {
+	color: #0062CC;
+}
+.info .mui-badge {
+	margin-top: 12px;
+	color: #FFFFFF;
+}
+.info .price {
+	color: #CF2D28;
+	float: right;
+	margin-top: 9px;
+}
+.info .price b {
+	font-size: 20px;
+}
+.info .old_price {
+	color: #CCC;
+	float: right;
+	margin-top: 12px;
+}
+.info .old_price b {
+	font-size: 15px;
+	text-decoration: line-through;
+	vertical-align: bottom;
+}
+
+p {
+	font-size: 12px;
+}
