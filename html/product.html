@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/app.css"/>
+		
+	</head>
+
+	<body>
+		<div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable">
+			<!--侧滑菜单部分-->
+			<aside id="offCanvasSide" class="mui-off-canvas-left">
+				<div id="offCanvasSideScroll" class="mui-scroll-wrapper">
+					<div class="mui-scroll">
+					    <!-- 菜单具体展示内容 -->
+					    <div class="user-info">
+							<a href="index.html">
+								<img class="mui-media-object mui-pull-left" src="../images/logo.png" style="width:45px">
+								<div class="mui-media-body">
+									美国云鹤
+									<p class="mui-ellipsis">注册之后内容更精彩!</p>
+								</div>
+							</a>
+							<!--<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>-->
+							<p style="text-align: center;">
+								<a href="login.html" class="mui-btn mui-btn-outlined mui-btn-primary">登陆 </a>
+								<a href="reg.html" class="mui-btn mui-btn-outlined mui-btn-primary">注册 </a>
+							</p>
+						</div>
+						<!-- 菜单具体展示内容 -->
+						<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+							<li class="mui-table-view-cell mui-collapse">
+								<a class="mui-navigate-right" href="#">孝敬父母</a>
+								<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">保护心脑血管</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">调节血糖</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">心动力</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">强健骨骼</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">预防老年痴呆</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">改善老花眼</a>
+									</li>
+								</ul>
+							</li>
+							<li class="mui-table-view-cell mui-collapse">
+								<a class="mui-navigate-right" href="#">魅力女士</a>
+								<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">驻留青春</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">肌肤如初</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">营养瘦身</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">调节内分泌</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">提高吸收</a>
+									</li>
+								</ul>
+							</li>
+							<li class="mui-table-view-cell mui-collapse">
+								<a class="mui-navigate-right" href="#">强健男士</a>
+								<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">保护前列腺</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">肝脏健康</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">保护心脑血管</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">运动健身</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">肠胃健康</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">改善视力</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+			<!--主界面部分-->
+			<div class="mui-inner-wrap">
+				<header class="mui-bar mui-bar-nav">
+					<a id="offCanvasShow" href="#offCanvasSide" class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></a>
+					<h1 class="mui-title">云鹤关节灵 氨基葡萄糖氨糖软骨素维骨力 90粒/瓶</h1>
+				</header>
+				<nav class="mui-bar mui-bar-tab">
+					<a class="mui-tab-item mui-active" href="index.html">
+						<span class="mui-icon mui-icon-home"></span>
+						<span class="mui-tab-label">首页</span>
+					</a>
+					<a class="mui-tab-item" href="mall.html">
+						<span class="mui-icon mui-icon-list"></span>
+						<span class="mui-tab-label">商城</span>
+					</a>
+					<a class="mui-tab-item buy-btn" href="javascript:;" style="background:#EC971F;">
+						<span class="mui-tab-label">加入购物车</span>
+					</a>
+					<a class="mui-tab-item buy-btn" href="javascript:;" style="background:#FF0000;">
+						<span class="mui-tab-label">立即购买</span>
+					</a>
+				</nav>
+				<div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<div id="slider" class="mui-slider" >
+							<div class="mui-slider-group mui-slider-loop">
+								<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<a href="#">
+										<img src="../images/yuantiao.jpg">
+									</a>
+								</div>
+								<!-- 第一张 -->
+								<div class="mui-slider-item">
+									<a href="#">
+										<img src="../images/shuijiao.jpg">
+									</a>
+								</div>
+								<!-- 第二张 -->
+								<div class="mui-slider-item">
+									<a href="#">
+										<img src="../images/muwu.jpg">
+									</a>
+								</div>
+								<!-- 第三张 -->
+								<div class="mui-slider-item">
+									<a href="#">
+										<img src="../images/cbd.jpg">
+									</a>
+								</div>
+								<!-- 第四张 -->
+								<div class="mui-slider-item">
+									<a href="#">
+										<img src="../images/yuantiao.jpg">
+									</a>
+								</div>
+								<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<a href="#">
+										<img src="../images/shuijiao.jpg">
+									</a>
+								</div>
+							</div>
+							<div class="mui-slider-indicator">
+								<div class="mui-indicator mui-active"></div>
+								<div class="mui-indicator"></div>
+								<div class="mui-indicator"></div>
+								<div class="mui-indicator"></div>
+							</div>
+						</div>
+						<div class="mui-content-padded">
+							<p style="margin-bottom: 0;">
+                            	<span class="detail-title">云鹤关节灵 氨基葡萄糖氨糖软骨素维骨力 90粒/瓶</span>
+                        	</p>
+							<p style="margin-bottom: 0;">
+                            	<span class="description">云鹤关节灵可以缓解关节疼痛，润滑修复关节，具有吸收快，效果好，是关节疾病患者的首选！</span>
+                        	</p>
+							<p class="info">
+								<span class="mui-badge mui-badge-primary">5天</span>
+								<span class="mui-badge mui-badge-primary">自由行</span> 0人出行
+								<span class="old_price">￥<b style="font-size: 12px;">480</b>元</span>
+								<span class="price">￥<b style="font-size: 32px;">380</b>元</span>
+                        	</p>
+						</div>
+						<h5 class="mui-content-padded" style="background-color: #fff;padding: 10px 10px;width: 100%;margin: 0px;">商品详情</h5>
+						<div class="mui-content-padded content-detail">
+							<p>这是图片放大预览示例，点击如下图片体验全屏预览功能</p>
+							<p>
+								<img src="../images/yuantiao.jpg" data-preview-src="" data-preview-group="1" />
+							</p>
+							<p>图片全屏后，双击或双指缩放均可对图片进行放大、缩小操作，左右滑动可查看同组(data-preview-group相同的图片为一组)其它图片，点击会关闭预览</p>
+							<p>
+								<img src="../images/muwu.jpg" data-preview-src="" data-preview-group="1" />
+							</p>
+							<p>第三张图片，纯粹为了占位： </p>
+							<p>
+								<img src="../images/shuijiao.jpg" data-preview-src="" data-preview-group="1" />
+							</p>
+						</div>
+
+						
+					</div>
+					
+
+				</div>
+				<!-- off-canvas backdrop -->
+				<div class="mui-off-canvas-backdrop"></div>
+			</div>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/zepto.min.js"></script>
+		<script src="../js/common.js"></script>
+		<script>
+			mui.init();
+			 //侧滑容器父节点
+			var offCanvasWrapper = mui('#offCanvasWrapper');
+			 //主界面容器
+			var offCanvasInner = offCanvasWrapper[0].querySelector('.mui-inner-wrap');
+			 //菜单容器
+			var offCanvasSide = document.getElementById("offCanvasSide");
+			 //侧滑容器的class列表，增加.mui-slide-in即可实现菜单移动、主界面不动的效果；
+			var classList = offCanvasWrapper[0].classList;
+			 //变换侧滑动画移动效果；
+			offCanvasWrapper[0].insertBefore(offCanvasSide, offCanvasWrapper[0].firstElementChild);
+			 //主界面和侧滑菜单界面均支持区域滚动；
+			mui('#offCanvasSideScroll').scroll();
+			mui('#offCanvasContentScroll').scroll();
+			 //实现ios平台原生侧滑关闭页面；
+			if (mui.os.plus && mui.os.ios) {
+				mui.plusReady(function() { //5+ iOS暂时无法屏蔽popGesture时传递touch事件，故该demo直接屏蔽popGesture功能
+					plus.webview.currentWebview().setStyle({
+						'popGesture': 'none'
+					});
+				});
+			}
+			var slider = mui("#slider");
+			slider.slider({
+				interval: 2000
+			});
+		</script>
+	</body>
+
+</html>

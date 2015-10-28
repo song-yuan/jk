@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/app.css"/>
+		
+	</head>
+
+	<body>
+		<div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable">
+			<!--侧滑菜单部分-->
+			<aside id="offCanvasSide" class="mui-off-canvas-left">
+				<div id="offCanvasSideScroll" class="mui-scroll-wrapper">
+					<div class="mui-scroll">
+					    <div class="user-info">
+							<a href="index.html">
+								<img class="mui-media-object mui-pull-left" src="../images/logo.png" style="width:45px">
+								<div class="mui-media-body">
+									美国云鹤
+									<p class="mui-ellipsis">快速导航</p>
+								</div>
+							</a>
+						</div>
+
+					    <!-- 菜单具体展示内容 -->
+						<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+							<li class="mui-table-view-cell mui-collapse">
+								<a class="mui-navigate-right" href="#">孝敬父母</a>
+								<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">保护心脑血管</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">调节血糖</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">心动力</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">强健骨骼</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">预防老年痴呆</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">改善老花眼</a>
+									</li>
+								</ul>
+							</li>
+							<li class="mui-table-view-cell mui-collapse">
+								<a class="mui-navigate-right" href="#">魅力女士</a>
+								<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">驻留青春</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">肌肤如初</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">营养瘦身</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">调节内分泌</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">提高吸收</a>
+									</li>
+								</ul>
+							</li>
+							<li class="mui-table-view-cell mui-collapse">
+								<a class="mui-navigate-right" href="#">强健男士</a>
+								<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">保护前列腺</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">肝脏健康</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">保护心脑血管</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">运动健身</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">肠胃健康</a>
+									</li>
+									<li class="mui-table-view-cell">
+										<a class="mui-navigate-right" href="#">改善视力</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+			<!--主界面部分-->
+			<div class="mui-inner-wrap">
+				<header class="mui-bar mui-bar-nav">
+					<h1 class="mui-title">美国科瑞药业</h1>
+					<a id="offCanvasShow" href="#offCanvasSide" class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></a>
+				</header>
+				<nav class="mui-bar mui-bar-tab">
+					<a class="mui-tab-item mui-active" href="index.html">
+						<span class="mui-icon mui-icon-home"></span>
+						<span class="mui-tab-label">首页</span>
+					</a>
+					<a class="mui-tab-item" href="mall.html">
+						<span class="mui-icon mui-icon-list"></span>
+						<span class="mui-tab-label">商城</span>
+					</a>
+					<a class="mui-tab-item" href="ucenter.html">
+						<span class="mui-icon mui-icon-contact"></span>
+						<span class="mui-tab-label">个人中心</span>
+					</a>
+					<a class="mui-tab-item" href="cart.html">
+						<span class="mui-icon mui-icon-gear"></span>
+						<span class="mui-tab-label">购物车</span>
+					</a>
+				</nav>
+
+				<div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<div class="mui-bar" style="height: 60px">
+							<input type="search" id="search" style="float: left;width:78%;margin-top:8px;height: 42px;" class="mui-input-clear mui-input-speech mui-col-xs-10" placeholder="search">
+							<button id="shou" class="mui-btn  " style="float: left;height: 42px;width:18%;margin-left:5px;">搜索</button>
+						</div>
+						<ul class="mui-table-view list" style="padding-top:60px;">
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+                                    <div class="mui-media-body">
+                                        <b>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</b>
+                                        <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般</p>
+                                        <p class="info">
+                                        	<span class="mui-badge mui-badge-primary">5人购买</span>
+                                        	<span class="old_price">￥<b>380</b>元</span>
+                                        	<span class="price">￥<b>480</b>元</span>
+                                        </p>
+                                    </div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+                                    <div class="mui-media-body">
+                                        <b>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</b>
+                                        <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般</p>
+                                        <p class="info">
+                                        	<span class="mui-badge mui-badge-primary">5人购买</span>
+                                        	<span class="old_price">￥<b>380</b>元</span>
+                                        	<span class="price">￥<b>480</b>元</span>
+                                        </p>
+                                    </div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+                                    <div class="mui-media-body">
+                                        <b>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖</b>
+                                        <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般</p>
+                                        <p class="info">
+                                        	<span class="mui-badge mui-badge-primary">5人购买</span>
+                                        	<span class="old_price">￥<b>380</b>元</span>
+                                        	<span class="price">￥<b>480</b>元</span>
+                                        </p>
+                                    </div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					
+
+				</div>
+				<!-- off-canvas backdrop -->
+				<div class="mui-off-canvas-backdrop"></div>
+			</div>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/zepto.min.js"></script>
+		<script src="../js/common.js"></script>
+		<script>
+			mui.init();
+			 //侧滑容器父节点
+			var offCanvasWrapper = mui('#offCanvasWrapper');
+			 //主界面容器
+			var offCanvasInner = offCanvasWrapper[0].querySelector('.mui-inner-wrap');
+			 //菜单容器
+			var offCanvasSide = document.getElementById("offCanvasSide");
+			 //侧滑容器的class列表，增加.mui-slide-in即可实现菜单移动、主界面不动的效果；
+			var classList = offCanvasWrapper[0].classList;
+			 //变换侧滑动画移动效果；
+			offCanvasWrapper[0].insertBefore(offCanvasSide, offCanvasWrapper[0].firstElementChild);
+			 //主界面和侧滑菜单界面均支持区域滚动；
+			mui('#offCanvasSideScroll').scroll();
+			mui('#offCanvasContentScroll').scroll();
+			 //实现ios平台原生侧滑关闭页面；
+			if (mui.os.plus && mui.os.ios) {
+				mui.plusReady(function() { //5+ iOS暂时无法屏蔽popGesture时传递touch事件，故该demo直接屏蔽popGesture功能
+					plus.webview.currentWebview().setStyle({
+						'popGesture': 'none'
+					});
+				});
+			}
+		</script>
+	</body>
+
+</html>

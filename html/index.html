@@ -30,28 +30,31 @@
 							</a>
 							<!--<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>-->
 							<p style="text-align: center;">
-								<a href="http://m.skywalk-er.com/member/public/login" class="mui-btn mui-btn-outlined mui-btn-primary">登陆 </a>
-								<a href="http://m.skywalk-er.com/member/public/register" class="mui-btn mui-btn-outlined mui-btn-primary">注册 </a>
+								<a href="login.html" class="mui-btn mui-btn-outlined mui-btn-primary">登陆 </a>
+								<a href="reg.html" class="mui-btn mui-btn-outlined mui-btn-primary">注册 </a>
 							</p>
 						</div>
 						<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
 							<li class="mui-table-view-cell">
-								<a href="http://m.skywalk-er.com/" class="mui-navigate-right mui-ellipsis"><span class="mui-icon mui-icon-home"></span> 首页 <span class="left-desc">Home</span></a>
+								<a href="index.html" class="mui-navigate-right mui-ellipsis">
+									<span class="mui-icon mui-icon-home"></span> 首页 
+									<span class="left-desc">Home</span>
+								</a>
 							</li>
 							<li class="mui-table-view-cell">
-								<a href="http://m.skywalk-er.com/products/index/cid/1.html" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiatejia"></span> 商城 </a>
+								<a href="mall.html" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiatejia"></span> 商城 </a>
 							</li>
 							<li class="mui-table-view-cell">
-								<a href="http://m.skywalk-er.com/products/index/cid/4.html" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaziyouxing"></span> 视频</a>
+								<a href="" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaziyouxing"></span> 视频</a>
 							</li>
 							<li class="mui-table-view-cell">
-								<a href="http://m.skywalk-er.com/products/index/cid/3.html" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaguonei"></span> 口碑</a>
+								<a href="" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaguonei"></span> 口碑</a>
 							</li>
 							<li class="mui-table-view-cell">
-								<a href="http://m.skywalk-er.com/products/index/cid/3.html" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaguonei"></span> 用户中心</a>
+								<a href="" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaguonei"></span> 用户中心</a>
 							</li>
 							<li class="mui-table-view-cell">
-								<a href="http://m.skywalk-er.com/products/index/cid/3.html" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaguonei"></span> 我的订单</a>
+								<a href="" class="mui-navigate-right mui-ellipsis"><span class="mui-icon iconfont icon-xianluxuanxiangqiaguonei"></span> 我的订单</a>
 							</li>
 						</ul>
 					</div>
@@ -60,7 +63,7 @@
 			<!--主界面部分-->
 			<div class="mui-inner-wrap">
 				<header class="mui-bar mui-bar-nav">
-					<a href="#offCanvasSide" class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></a>
+					<a id="offCanvasShow" href="#offCanvasSide" class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></a>
 					<h1 class="mui-title">美国科瑞药业</h1>
 				</header>
 				<div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper">
@@ -211,6 +214,8 @@
 			</div>
 		</div>
 		<script src="../js/mui.min.js"></script>
+		<script src="../js/zepto.min.js"></script>
+		<script src="../js/common.js"></script>
 		<script>
 			mui.init();
 			 //侧滑容器父节点

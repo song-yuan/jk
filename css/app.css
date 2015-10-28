@@ -2,9 +2,7 @@
 	font-family: "microsoft yahei",sans-serif;
 	font-size: 12px;
 }
-html,body {
-	background-color: #efeff4;
-}
+.mui-content{height: 100%;}
 .user-info {
 	text-align: left;
 	padding: 20px 10px 10px;
@@ -50,4 +48,19 @@ html,body {
 
 p {
 	font-size: 12px;
+}
+span.detail-title {
+	font-size: 18px;
+	color: #29A4E4;
+}
+span.description {
+	font-size: 12px;
+	color: #6c6c6c;
+}
+.content-detail img {
+	width:100%;
+}
+.buy-btn span{
+	font-size: 14px;
+	color: #FFFFFF;
 }
